@@ -8,6 +8,7 @@ export type OperatorGraphItemInitial = {
 export interface OperatorGraphItemBase {
   id: string;
   label: string;
+  docType?: string;
 }
 
 export interface OperatorGraphItemLink extends OperatorGraphItemBase {

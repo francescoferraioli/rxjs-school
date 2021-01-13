@@ -1,0 +1,9 @@
+<div>RXJS Test</div>
+<div>
+    {{ question }}
+</div>
+<div class="doc-options-container">
+    <div *ngFor="let doc of docs" (click)="docOptionClicked(doc)">
+        {{doc}}
+    </div>
+</div>
